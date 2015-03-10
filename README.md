@@ -21,6 +21,8 @@ Setting up the workspace on local:
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
+The optimized project is hosted at http://devmaestro.github.io/udacity/webperfOptimization/index.html
+
 ### Optimizations performed
 
 ##### Pagespeed Score in index.html

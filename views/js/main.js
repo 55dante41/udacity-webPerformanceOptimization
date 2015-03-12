@@ -366,8 +366,8 @@ function changeSliderLabel(size) {
 
                 // Iterates through pizza elements on the page and changes their widths
                 function changePizzaSizes(size) {
-                  var dx = determineDx(randomPizzaContainerSelector[i], size);
-                  var newwidth = (randomPizzaContainerSelector[i].offsetWidth + dx) + 'px';
+                  var dx = determineDx(randomPizzaContainerSelector[0], size);
+                  var newwidth = (randomPizzaContainerSelector[0].offsetWidth + dx) + 'px';
                   for (var i = 0; i < randomPizzaContainerSelector.length; i++) {
                     randomPizzaContainerSelector[i].style.width = newwidth;
                   }
